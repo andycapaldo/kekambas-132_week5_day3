@@ -235,6 +235,7 @@ LIMIT 3;
 
 -- Question 9
 
+
 SELECT actor.actor_id, actor.first_name, actor.last_name, COUNT(*)
 FROM actor 
 JOIN film_actor 
